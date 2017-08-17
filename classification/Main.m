@@ -17,7 +17,7 @@ xTrain=[-1,-1;...
  yTrain=[ones(2,1);-ones(2,1)];
  
  % Define parameters for EigenSample - these can be changed according to the dataset
- Cparam=0.1;
+ Cparam=1;
  epsilon=0.01;
  
  % Function call to augment dataset
@@ -27,6 +27,7 @@ xTrain=[-1,-1;...
  figure;
  scatter(xTrain(yTrain==1,1),xTrain(yTrain==1,2),'ro'); hold on; grid on;
  scatter(xTrain(yTrain==-1,1),xTrain(yTrain==-1,2),'rx'); 
- scatter(new_dataset(new_labels==1,1),new_dataset(new_labels==1,2),'ro'); 
- scatter(new_dataset(new_labels==-1,1),new_dataset(new_labels==-1,2),'rx'); 
+ scatter(new_dataset(new_labels==1,1),new_dataset(new_labels==1,2),'bo'); 
+ scatter(new_dataset(new_labels==-1,1),new_dataset(new_labels==-1,2),'bx'); 
  legend('Original Points class +1', 'Original Points class -1', 'New Points class +1', 'New Points class -1');
+ axis([-2,2,-2,2]);
