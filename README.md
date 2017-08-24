@@ -12,7 +12,7 @@ Authors: Jayadeva, Sumit Soman and Soumya Saxena
 
 Journal: Elsevier's Applied Soft Computing (Special Issue on Non-iterative Methods in Learning)
 
-DOI: 10.1016/j.asoc.2017.08.017
+DOI: https://doi.org/10.1016/j.asoc.2017.08.017
 
 
 ## Pre-Requisites
