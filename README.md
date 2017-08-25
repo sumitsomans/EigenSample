@@ -15,11 +15,11 @@ Journal: Elsevier's Applied Soft Computing (Special Issue on Non-iterative Metho
 DOI: https://doi.org/10.1016/j.asoc.2017.08.017
 
 
-## Pre-Requisites
+## Prerequisites
 
 This code assumes you have LIBSVM on the MATLAB path, which can be downloaded from http://www.csie.ntu.edu.tw/~cjlin/libsvm/oldfiles/index-1.0.html
 
 
-## Support
+## Software Versions
 
-For any clarifications please email eez127509@ee.iitd.ac.in (Sumit Soman)
+This code was developed and tested on MATLAB vR2014b and LIBSVM v3.21.
