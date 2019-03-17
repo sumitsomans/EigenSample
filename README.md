@@ -6,9 +6,9 @@ This repository has the MATLAB code for EigenSample, an approach that can be use
 
 ## Paper
 
-Title: EigenSample: A non-iterative technique for adding samples to small datasets
+EigenSample: A non-iterative technique for adding samples to small datasets
 
-Authors: Jayadeva, Sumit Soman and Soumya Saxena
+Jayadeva, Sumit Soman and Soumya Saxena. "EigenSample: A non-iterative technique for adding samples to small datasets." Applied Soft Computing 70 (2018): 1064-1077.
 
 Journal: Elsevier's Applied Soft Computing (Special Issue on Non-iterative Methods in Learning)
 
